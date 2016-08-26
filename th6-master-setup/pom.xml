@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.synergix</groupId>
+		<artifactId>taskhub-action-repository</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>th6-master-setup</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+	
+	<name>TH6 Master Setup: Parent POM</name>
+
+	<modules>
+		<module>th6-ms-finance</module>
+		<module>th6-ms-party</module>
+		<module>th6-ms-inventory-management</module>
+		<module>th6-ms-service</module>
+		<module>th6-ms-project</module>
+		<module>th6-ms-scm</module>
+		<module>th6-ms-human-resources</module>
+		<module>th6-ms-administration</module>
+		<module>th6-ms-operational-asset</module>
+		<module>th6-ms-contract</module>
+		<module>th6-ms-servicing</module>
+		<module>th6-ms-customer-relation-management</module>
+		<module>th6-ms-others</module>
+	</modules>
+</project>

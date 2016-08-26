@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.synergix</groupId>
+        <artifactId>th6-opening-balance</artifactId>
+        <version>1.0</version>
+    </parent>
+    <artifactId>th6-opening-balance-finance</artifactId>
+    <version>th6-1.0</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <auto.version>1.0</auto.version>
+        <autoth6.version>th6-1.0</autoth6.version>
+    </properties>
+
+    <name>TH6 Opening Balance: Finance</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.synergix</groupId>
+            <artifactId>taskhub6-common</artifactId>
+            <version>${auto.version}</version>
+        </dependency>
+    </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Synergix Internal Releases</name>
+            <url>http://auto02-pc:8088/repository/maven-releases</url>
+        </repository>
+    </distributionManagement>
+</project>

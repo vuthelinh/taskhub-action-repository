@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.synergix</groupId>
+		<artifactId>th5-spec-flow-test</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<artifactId>th5-component-testing</artifactId>
+	<version>modi-1.0</version>
+	<packaging>jar</packaging>
+
+	<properties>
+		<auto.version>1.0</auto.version>
+	</properties>
+
+	<name>Example Test Project TH5</name>
+	<dependencies>
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>taskhub-common</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-global-setup</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-processing</artifactId>
+			<version>1.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-maintenance-setup</artifactId>
+			<version>1.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-opening-balance</artifactId>
+			<version>1.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>

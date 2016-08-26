@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.synergix</groupId>
+		<artifactId>taskhub-action-repository</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>th6-component-testing</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+
+	<properties>
+		<auto.version>1.0</auto.version>
+		<autoth6.version>th6-1.0</autoth6.version>
+	</properties>
+
+	<name>Level - TH6: Component Testing</name>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>taskhub6-common</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<!--TH5 dependencies -->
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>synergix-test-utils</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-business-format</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-enquiry</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-global-setup</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-listing</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-maintenance-setup</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-opening-balance</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-processing</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-report</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th5-system-administration</artifactId>
+			<version>${auto.version}</version>
+		</dependency>
+
+		<!--TH6 master setup dependencies -->
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-administration</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-contract</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-customer-relation-management</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-finance</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-human-resources</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-inventory-management</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-operational-asset</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-others</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-party</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-project</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-scm</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-servicing</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-ms-service</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<!--TH6 master setup dependencies -->
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-contract</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-customer-relation-management</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-finance</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-human-resources</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-inventory-management</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-others</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-production</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-project</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-scheduler</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-scm</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-operations-servicing</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<!--TH6 master setup dependencies -->
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-opening-balance-finance</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-opening-balance-payroll</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.synergix</groupId>
+			<artifactId>th6-opening-balance-project</artifactId>
+			<version>${autoth6.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
